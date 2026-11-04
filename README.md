@@ -4,7 +4,7 @@ A WhatsApp ordering bot that speaks **Somali**. Customers browse the menu, build
 
 Built on the **official WhatsApp Cloud API** (no unofficial libraries, no risk of the number getting banned), in plain Node.js + TypeScript.
 
-![Node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=nodedotjs&logoColor=white)
+![Node](https://img.shields.io/badge/node-%3E%3D20-339933?logo=nodedotjs&logoColor=white)
 ![WhatsApp Cloud API](https://img.shields.io/badge/WhatsApp-Cloud%20API-25D366?logo=whatsapp&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
