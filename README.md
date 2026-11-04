@@ -1,6 +1,6 @@
 # whatsapp-order-bot
 
-A WhatsApp ordering bot that speaks **Somali**. Customers browse the menu, build a cart, send their delivery address and confirm — the shop owner gets every order instantly on WhatsApp.
+A WhatsApp ordering bot that speaks **Somali**. Customers browse the menu, build a cart, send their delivery address and confirm, and the shop owner gets every order instantly on WhatsApp.
 
 Built on the **official WhatsApp Cloud API** (no unofficial libraries, no risk of the number getting banned), in plain Node.js + TypeScript.
 
@@ -41,7 +41,7 @@ Wadar: $13.00
 - Menu, cart with quantities (`2x3`), checkout, address, explicit confirmation, cancel at any step
 - Owner notification for every order, plus an `orders.jsonl` log
 - Webhook **signature verification** (`X-Hub-Signature-256`) and duplicate-delivery protection
-- Conversation logic is a pure function with injected storage — fully unit-tested, easy to move to Redis/Postgres
+- Conversation logic is a pure function with injected storage, so it's fully unit-tested and easy to move to Redis/Postgres
 - Zero runtime dependencies
 
 ## Setup
@@ -85,4 +85,4 @@ npm test
 
 ## License
 
-MIT © Abdimalik Salad Hussein — [Fiddo Technology](https://fiddotechnology.com)
+MIT © Abdimalik Salad Hussein · [Fiddo Technology](https://fiddotechnology.com)
